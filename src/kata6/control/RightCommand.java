@@ -10,11 +10,11 @@ import kata6.model.Block;
  *
  */
 
-public class RigthCommand implements Command{
+public class RightCommand implements Command{
     
     private final Block block;
 
-    public RigthCommand(Block block) {
+    public RightCommand(Block block) {
         this.block = block;
     }
 
@@ -23,6 +23,4 @@ public class RigthCommand implements Command{
         block.rigth();
     }
     
-    
-
 }

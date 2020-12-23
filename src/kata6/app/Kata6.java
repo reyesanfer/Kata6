@@ -60,7 +60,7 @@ public class Kata6 extends JFrame{
         commands.put("U", new UpCommand(block));
         commands.put("D", new DownCommand(block));
         commands.put("L", new LeftCommand(block));
-        commands.put("R", new RigthCommand(block));
+        commands.put("R", new RightCommand(block));
         return commands;
     }
     
