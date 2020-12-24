@@ -25,7 +25,7 @@ public class Block {
         this.x = 4;
         this.y = 4;
         this.timer = new Timer();
-        this.timer.schedule(task(), 1000, 5000);
+        this.timer.schedule(task(), 1000, 500);
         this.observers = new ArrayList<>();
     }
 
